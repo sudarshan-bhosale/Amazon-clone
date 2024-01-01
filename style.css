@@ -199,9 +199,10 @@ span{
 
 .shop-sec{
     background-color:  #e2e7e6;
-    height: 1020px;
+    height: 1750px;
     display: flex;
     justify-content: space-evenly;
+    /* IN this section we can make changes */
     flex-wrap: wrap;
 }
 
