@@ -104,6 +104,10 @@ header{
     padding-left: 3px;
     padding-right: 3px;
 }
+.nav-signin a{
+    text-decoration: none;
+    color: white;
+}
 span{
     font-size: 0.8rem;
 }
@@ -124,6 +128,11 @@ span{
     font-size: 0.85rem;
     font-weight: 700;
     padding: 3px;
+}
+
+/* This is underline class is created because when we given a link using a ancor tag there is underline occur */
+.no-underline{
+    text-decoration: none;
 }
 .nav-cart i{
     font-size: 30px;
@@ -371,4 +380,244 @@ span{
 }
 .f-last p{
     font-size: 0.85rem;
+}
+
+
+
+
+/* Sign in pageee */
+
+.sign-in-page{
+    
+}
+
+.sign-in-logo{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.sign-in-from{
+    height: 380px;
+    width: 350px;
+    
+    border: 1px solid rgb(200, 216, 180);
+    border-radius: 10px;
+
+    
+}
+.sign-in-outer-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-sign-in{
+    display: flex;
+    justify-content: center;
+    
+}
+.input-sign-in input{
+    width: 88%;
+    height: 30px;
+    margin: 10px;
+    margin-top: 3px;
+   
+}
+.sign-in-from button{
+    width: 90%;
+    height: 30px;
+    margin: 11px;
+    margin-left: 18px;
+    background-color: rgb(239, 196, 8);
+    border: none;
+    border-radius: 5px;
+}
+.p-input{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.sign-in-from h2{
+    margin: 17px;
+    font-size: 1.9rem;
+
+}
+.form-second-p{
+    width: 90%px;
+    /* background-color: #007185; */
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+.form-second-p p a{
+    color: #007185;
+}
+.form-help{
+    width: 90%px;
+    /* background-color: #007185; */
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.form-help p{
+    margin-left: 7px;
+    margin-top: -2px;
+    color: #007185;
+}
+.form-last{
+    width: 90%;
+    height: 70px;
+    border: 1px solid white;
+    border-top-color: #c1c4ca;
+    margin-left: 18px;
+    margin-top: 23px;
+    padding-top: 18px;
+    
+}
+.form-last a{
+    margin-top: 50px;
+    color: #007185;
+}
+
+.new-account{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 0.8rem;
+}
+.create-account{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    /* width: 350px; */
+    /* margin-left: 587px; */
+    
+}
+.create-account button{
+    height: 27px;
+    width: 350px;
+    border: 1px solid #c1c4ca ;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    background: white;
+}
+
+.sign-in-footer{
+    /* background-color: rgb(239, 238, 238); */
+    width: 100%;
+    height: 50px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    border-top: 1px solid #c1c4ca;
+}
+
+.footer-between{
+    margin-top: 20px;
+    /* background-color: rgb(239, 238, 238); */
+    width: 350px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    color: #007185;
+    font-size: 0.95rem;
+}
+.sign-in-copy{
+    display: flex;
+    justify-content: center;
+    font-size: 0.90rem;
+    /* background-color: rgb(239, 238, 238); */
+}
+
+/* Cart cssss */
+
+.cart-full{
+    /* background-color:  #e2e7e6; */
+    width: 100%;
+    /* height: 800px; */
+    /* margin-top: -30px; */
+}
+.cart-image{
+    height: 182px;
+    width: 295px;
+    margin-top: 20px;
+    
+}
+.first-cart{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    background-color: white;
+    height: 200px;
+    align-items: center;
+}
+.cart-second{
+    /* margin-left: 30px; */
+    /* margin-top: 30px; */
+    margin-bottom: 12px;
+
+}
+.cart-second a{
+    color: #007185;
+    margin-top: 8px;
+}
+.first-button{
+    margin-top: 15px;
+    width: 190px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(239, 196, 8);
+    border: none;
+}
+.second-button{
+    width: 110px;
+    height: 30px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: none;
+    
+}
+.cart-empty{
+    height: 65px;
+    width: 100%;
+    background-color: white;
+    margin-top: 25px;
+}
+.cart-last{
+    font-size: 0.95rem;
+    margin: 25px;
+    margin-top: 35px;
+    /* margin-bottom: 120px; */
+}
+
+.personal-cart{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    margin-top: 380px;
+    margin-bottom: 50px;
+    border: 1px solid rgb(208, 207, 207);
+}
+.personal-inner-cart{
+    width: 15%;
+    /* background-color: yellow; */
+
+}
+.personal-inner-cart button{
+    width: 100%;
+    height: 25px;
+    background-color: rgb(239, 196, 8);
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.personal-inner-cart a{
+    color: #007185;
 }
