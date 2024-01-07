@@ -708,3 +708,187 @@ span{
 .deals-sign-in{
     margin-top: 70px;
 }
+
+
+/* This is  Registry section */
+
+.registry-panel-top{
+    margin-top: 15px;
+}
+.registry-panel-top a{
+    height: 65px;
+    width: 100%;
+    color:black;
+    margin-left: 20px;
+}
+#first-heilight-text{
+    color: #064f70;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+#first-heilight-text:hover{
+    text-decoration: underline;
+}
+.registry-panel-top select{
+    border: none;
+    font-size: 0.9rem;   
+}
+
+/* registry hero section */
+
+.registry-hero-section{
+
+}
+.registry-hero-image{
+    margin-top: 20px;
+}
+.registry-hero-image img{
+    height: 300px;
+    width: 100%;
+    
+}
+
+.registry-hero-section-outer{
+    display: flex;
+    justify-content: center;
+}
+
+.registry-hero-second{
+    width: 45%;
+    height: 150px;
+    /* border: 2px solid black; */
+    background-color: white;
+    margin-top: -65px;
+    text-align: center;
+    border-radius: 20px;
+
+}
+.registry-hero-second h2{
+    margin-top: 20px;
+}
+.registry-hero-second p{
+    margin: 10px;
+    font-size: 1.2rem;
+}
+.registry-hero-second button{
+    padding: 5px;
+    width: 35%;
+    border-radius: 5px;
+    background-color: rgb(239, 196, 8);
+    border: none;
+}
+.registry-hero-second button a{
+    color: black;
+}
+
+.registry-third-section-outer{
+    width: 100%;
+    height: 65px;
+    background-color: #febd68;
+    display: flex;
+    justify-content: center;
+    background-color: #e8e9ec;
+    margin-top: 20px;
+}
+.registry-third-section{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.registry-third-section h2{
+    
+}
+.registry-third-section input{
+    width: 30%;
+    height: 30px;
+    border-radius: 7px;
+    border: 1px solid #37475a ;
+    padding-left: 5px;
+}
+.registry-third-section select{
+    width: 30%;
+    height: 30px;
+    border-radius: 7px;
+    border-color: #37475a;
+}
+.registry-third-section button{
+    width: 8%;
+    height: 30px;
+    border-radius: 14px;
+    background-color:#121920;
+    color: white;
+    border: none;
+}
+
+.registry-boxes-heading{
+    margin-top: 25px;
+    text-align: center;
+}
+.registry-boxes{
+    width: 14%;
+    height: 250px;
+    border: 2px solid #979898 ;
+}
+.registry-boxes-outer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+.registry-boxes img{
+    width: 100%;
+    height: 80%;
+
+}
+.registry-boxes p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.1rem;
+}
+
+.registry-last-image{
+    margin-top: 40px;
+    margin-left: 3px;
+}
+
+.registry-last-heading{
+    text-align: center;
+    margin-top: 65px;
+}
+
+.registry-last-icon-outer{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.registry-last-icon-inner{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.registry-last-icon{
+    width: 22%;
+    height: 200px;
+    /* border: 2px solid black; */
+}
+
+.registry-last-icon i{
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    color: #064f70;
+}
+.registry-last-icon h3{
+    text-align: center;
+    margin-top: 20px;
+}
+.registry-last-icon p{
+    text-align: center;
+    margin-top: 5px;
+}
