@@ -892,3 +892,144 @@ span{
     text-align: center;
     margin-top: 5px;
 }
+
+/* Sevices pageee csss */
+
+
+.service-panel-outer{
+    width: 100%;
+    background-color: #007185;
+    border: 2px solid transparent;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+.service-panel{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    height: 60px;
+    align-items: center;
+    color: white;
+
+}
+.service-panel p{
+    font-size: 1.2rem;
+}
+
+.service-second{
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    /* border: 2px solid black; */
+    text-align: center;
+
+}
+.service-second h2{
+    margin-bottom: 10px;
+    font-size: 1.9rem;
+}
+.service-second p{
+    font-size: 1.2rem;
+}
+
+.service-outer-box{
+    display: flex;
+    justify-content: center;
+}
+.service-inner-box{
+    width: 85%;
+    height: 450px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.service-box{
+    width: 32%;
+    height: 94px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+
+
+.service-box img{
+    height: 60%;
+    width: 15%;
+    margin-left: 10px;
+    
+}
+.service-box p{
+    margin-left: 18px;
+}
+
+.service-last-section{
+    height: 150px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    background-color:  #e2e7e6;
+    
+}
+.service-search-outer{
+    width: 85%;
+    margin-top: 50px;
+}
+.service-search-outer input{
+    width: 100%;
+    height: 25px;
+    margin-left: 8px;
+    border: none;
+    
+}
+.service-input{
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.service-search-outer i{
+    margin-left: 5px;
+}
+
+.service-box-section-outer{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    background-color:  #e2e7e6;
+
+
+}
+.service-box-section{
+    height: 300px;
+    width: 85%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.service-box-last{
+    height: 80px;
+    width: 45%;
+    border: 1px solid rgb(192, 191, 191);
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+.service-box-last{
+    text-align: center;
+}
+.service-box-last h3{
+    margin-top: 3%;
+}
+.service-box-last p{
+    color: rgb(123, 121, 121);
+}
