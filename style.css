@@ -975,7 +975,7 @@ span{
     
 }
 .service-search-outer{
-    width: 85%;
+    width: 78.5%;
     margin-top: 50px;
 }
 .service-search-outer input{
@@ -1032,4 +1032,141 @@ span{
 }
 .service-box-last p{
     color: rgb(123, 121, 121);
+}
+
+/* Gift card -- csss */
+
+.gift-second-panel-outer{
+    width: 100%;
+
+}
+.gift-second-panel{
+    width: 80%;
+    height: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.gift-second-panel a{
+    font-size: 0.9rem;
+}
+.gift-second-panel a:hover{
+    color: rgb(251, 79, 6);
+    text-decoration: underline;
+}
+.gift-image{
+    width: 100%;
+
+    background-size: cover;
+}
+.gift-image img{
+    width: 100%;
+    height:auto;
+}
+
+.gift-third-panel-outer{
+    width: 100%;
+    /* height: 50px; */
+}
+.gift-third-panel{
+    width: 70%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1rem;
+}
+#gift-first-a{
+    font-size: 1.6rem;
+    font-weight: 550;
+}
+.gift-third-panel a:hover{
+    color: #0e90aa;
+    text-decoration: underline;
+}
+.gift-image-box-outer{
+    width: 100%;
+}
+.gift-image-box{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.gift-image-box img{
+    width: 50%;
+    height: auto;
+}
+.gift-heading{
+    border: 1px solid rgb(172, 172, 172);
+    border-top:none ;
+    border-left:none ;
+    border-right:none ;
+    
+}
+.gift-heading h2{
+    margin-left: 20px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+.gift-shop-section{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.gift-shop-section-outer{
+    width: 100%;
+    margin-top: 50px;
+}
+.gift-shop-box img{
+    width: 180px;
+    height: 180px;
+}
+.gift-shop-box{
+    width: 13%;
+}
+.gift-shop-box a:hover{
+    color: rgb(246, 118, 6);
+}
+#price{
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.sub-heading{
+    color: rgb(123, 122, 122);
+}
+
+.gift-three-image-outer{
+    width: 100%;
+}
+
+.gift-three-image{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    
+}
+.gift-three-image img{
+    width: 30%;
+}
+
+.gift-last-heading{
+    height: 90px;
+    width: 100%;
+    background-color: #dee1e1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 1.7rem;
+    margin-bottom: 50px;
+}
+.gift-last-heading p{
+    margin-right: 5px;
+}
+.gift-last-heading i{
+    margin-top: 5px;
 }
