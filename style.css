@@ -1335,6 +1335,12 @@ span{
     text-decoration: none;
     font-size: 1.1rem;
 }
+.sell-box a i{
+    margin-left: 8px;
+}
+.sell-box a i:hover{
+    color: #0acbf1;
+}
 .sell-last-content{
     display: flex;
     size: 1.1rem;
@@ -1344,4 +1350,11 @@ span{
     margin-right: 10px;
     justify-content: center;
     align-items: center;
+}
+.sell-last-content p i{
+    margin-left: 8px;
+}
+
+.sell-last-content p i:hover{
+    color: #0acbf1;
 }
